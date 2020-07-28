@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+body,
+html {
+    height: 100%;
+}
+
+div.jumbotron {
+    margin: 0;
+    font-size: 18pt;
+    font-weight: bold;
+    font-family: 'Kanit', sans-serif;
+    background-color: #1C2331;
+}
+
+a.nav-link {
+    color: white;
+}
+
+a.nav-link:hover {
+    text-shadow: 20px 20px 20px black;
+    color: rgba(146, 143, 143, 0.705);
+    transition: 0.3s;
+}
+
+h2 {
+    padding-top: 30px;
+    padding-bottom: 10px;
+}
+
+footer {
+    background-color: #1C2331;
+}
+
+.fa-plus {
+    color: rgb(4, 231, 4);
+}
+
+.fa-edit {
+    color: blue;
+}
+
+.fa-trash-alt {
+    color: red;
+}
+
+button i:hover {
+    color: rgba(146, 143, 143, 0.705);
+    transition: 0.2s;
+}
+
+button.btn-basic {
+    font-weight: 700;
+}
+
+button.btn-basic:hover {
+    color: rgba(146, 143, 143, 0.705);
+    transition: 0.2s;
+}
+
+.content {
+    min-height: 100%;
+    position: relative;
+}
+
+footer {
+    display: block;
+    position: relative;
+    margin: 0;
+}
